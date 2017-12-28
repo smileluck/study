@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title>焦点吧</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        //解决跨域
+        document.domain = "1473.cn";
+    </script>
+    <script src="js/uform.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/view.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+    <!-- 解决跨域 -->
+    <iframe id="temp" style="display: none" src="http://tiebabll.1473.cn/domain.htm">
+    </iframe>
+    <div class="whole">
+        <div class="top">
+            <div class="top_one">
+                聚焦每一个瞬间，用镜头看世界！</div>
+            <div class="top_two">
+                摄影</div>
+            <div style="position: relative; height: 440px;">
+                <img src="img/beijing.png" class="top_three" /><img src="img/flower3.jpg" class="top_three2" />
+                <div class="top_four">
+                    焦点吧</div>
+                <div class="top_four2">
+                    <div class="float">
+                        关注：</div>
+                    <div class="top_f2_one">
+                        860,000</div>
+                    <div class="float">
+                        帖子：</div>
+                    <div class="top_f2_one" style="float: left">
+                        160,000</div>
+                </div>
+                <div class="top_five">
+                    <div class="bott">
+                        <img src="img/guanzhu.png" class="bott2" />
+                        <a class="left">关注</a>
+                    </div>
+                    <div class="bott">
+                        <img src="img/sign.png" class="bott2" />
+                        <a class="left">签到</a>
+                    </div>
+                    <div class="bott">
+                        <img src="img/talk.png" class="bott2" />
+                        <a class="left">群组</a>
+                    </div>
+                    <div>
+                        <img src="img/picture.png" class="bott2" />
+                        <a class="left">图集</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body_one">
+            <div class="body_o_one">
+            </div>
+            <div class="body_o_two" id="ttt">
+            </div>
+            <div class="body_o_three">
+                <div class="body_o_three2" id="logreg">
+                    <div class="float" id="login" onclick="createframe(0)" style="height: 45px; width: 90px;
+                        text-align: center; line-height: 45px;">
+                        登录</div>
+                    <div class="float2" id="register" onclick="createframe(1)" style="height: 45px; width: 90px;
+                        text-align: center; line-height: 45px;">
+                        注册</div>
+                </div>
+                <div id="square">
+                </div>
+                <div id="Tips_label" class="loginout">
+                </div>
+            </div>
+            <div class="body_o_four" id="box_big">
+                <div class="body_o_four2" id="n_t">
+                    <!--<div class="body_f_one" id="n_t">
+                        <a>Looking for</a></div>
+                    <div class="body_f_two" id="n_r">
+                        街拍，那些错过的美好——让我们来寻找身边的不经意的美！</div>-->
+                </div>
+                <div class="body_o_four3">
+                    <a>
+                        <img src="img/heart.png" class="body_f3_one" /></a>
+                    <div class="body_f3_two" id="a_n">
+                        <!--<a>在水一方</a>-->
+                    </div>
+                    <div class="body_f3_three" id="p_t">
+                        <!--10:30-->
+                    </div>
+                </div>
+                <div class="body_o_four4">
+                    <!--<img src="img/part6.png" class="body_f4_one" />
+                    <img src="img/part19.png" class="body_f4_one" />
+                    <img src="img/part10.png" class="body_f4_one" />
+                    <img src="img/part23.png" class="body_f4_one" />-->
+                </div>
+                <div class="body_o_four5">
+                </div>
+            </div>
+            <ul class="body_o_four6" id="ul_page">
+                <!--<li class="number" style="height: 20px; width: 20px; background: #de9e57; color: White">
+                    1</li>
+                <li class="number" style="height: 20px; width: 20px">2</li>
+                <li class="number" style="height: 20px; width: 20px">3</li>
+                <li class="number" style="height: 20px; width: 50px;">下一页</li>
+                <li class="number" style="height: 20px; width: 50px;">尾页</li>
+                <li class="number2"><a>吧贴投诉</a></li>-->
+            </ul>
+            <div class="publish">
+                <div class="p_one">
+                    发表新帖</div>
+                <input type="text" class="p_two" placeholder="&nbsp标题" id="title" />
+                <div class="p_three">
+                    <div class="p_four">
+                        <textarea class="p_five" id="note"></textarea></div>
+                </div>
+                <div class="p_six" onclick="publich()">
+                    发表</div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="float">
+                <a>贴吧协议</a></div>
+            <div class="float">
+                |</div>
+            <div class="float">
+                <a>吧主制度</a></div>
+            <div class="float">
+                |</div>
+            <div class="float">
+                <a>意见反馈</a></div>
+            <div class="float">
+                |</div>
+            <div class="float">
+                <a>网络谣言警示</a></div>
+        </div>
+    </div>
+</body>
+</html>

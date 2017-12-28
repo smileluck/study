@@ -1,0 +1,7 @@
+F:\JS\tieba.1473.cn\tieba\tieba.BLL\obj\Debug\tieba.BLL.csprojResolveAssemblyReference.cache
+F:\JS\tieba.1473.cn\tieba\tieba.BLL\bin\tieba.BLL.dll
+F:\JS\tieba.1473.cn\tieba\tieba.BLL\bin\tieba.BLL.pdb
+F:\JS\tieba.1473.cn\tieba\tieba.BLL\bin\tieba.Model.dll
+F:\JS\tieba.1473.cn\tieba\tieba.BLL\bin\tieba.Model.pdb
+F:\JS\tieba.1473.cn\tieba\tieba.BLL\obj\Debug\tieba.BLL.dll
+F:\JS\tieba.1473.cn\tieba\tieba.BLL\obj\Debug\tieba.BLL.pdb

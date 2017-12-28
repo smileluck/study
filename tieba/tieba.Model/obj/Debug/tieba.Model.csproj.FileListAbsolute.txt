@@ -1,0 +1,5 @@
+F:\JS\tieba.1473.cn\tieba\tieba.Model\bin\tieba.Model.dll
+F:\JS\tieba.1473.cn\tieba\tieba.Model\obj\Debug\tieba.Model.dll
+F:\JS\tieba.1473.cn\tieba\tieba.Model\obj\Debug\tieba.Model.pdb
+F:\JS\tieba.1473.cn\tieba\tieba.Model\bin\tieba.Model.pdb
+F:\JS\tieba.1473.cn\tieba\tieba.Model\obj\Debug\tieba.Model.csprojResolveAssemblyReference.cache

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="db_tiebaModelStoreContainer" CdmEntityContainer="db_tiebaEntities">
+    <EntitySetMapping Name="user">
+      <EntityTypeMapping TypeName="db_tiebaModel.user">
+        <MappingFragment StoreEntitySet="user">
+          <ScalarProperty Name="phoneMail" ColumnName="phoneMail" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="note_all" FunctionName="db_tiebaModel.Store.note_all" />
+    <FunctionImportMapping FunctionImportName="note_del" FunctionName="db_tiebaModel.Store.note_del" />
+    <FunctionImportMapping FunctionImportName="note_input" FunctionName="db_tiebaModel.Store.note_input" />
+    <FunctionImportMapping FunctionImportName="note_updata" FunctionName="db_tiebaModel.Store.note_updata" />
+    <FunctionImportMapping FunctionImportName="user_register" FunctionName="db_tiebaModel.Store.user_register" />
+    <FunctionImportMapping FunctionImportName="user_login" FunctionName="db_tiebaModel.Store.user_login" />
+    <EntitySetMapping Name="notes">
+      <EntityTypeMapping TypeName="db_tiebaModel.notes">
+        <MappingFragment StoreEntitySet="notes">
+          <ScalarProperty Name="timerss" ColumnName="timerss" />
+          <ScalarProperty Name="author" ColumnName="author" />
+          <ScalarProperty Name="note" ColumnName="note" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="note_title" FunctionName="db_tiebaModel.Store.note_title" />
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tieba", "tieba\tieba.csproj", "{03D8DC0A-6425-4D72-B88D-AB484C5A8DF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tieba.Model", "tieba.Model\tieba.Model.csproj", "{3807CA00-864B-40E8-B706-2821D4BA9F91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tieba.BLL", "tieba.BLL\tieba.BLL.csproj", "{2BFEF56B-6C74-48CA-8EC8-A707E39B01AC}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://10.3.16.40:8080/tfs/uswise
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = tieba\\tieba.csproj
+		SccProjectName1 = tieba
+		SccLocalPath1 = tieba
+		SccProjectUniqueName2 = tieba.Model\\tieba.Model.csproj
+		SccProjectName2 = tieba.Model
+		SccLocalPath2 = tieba.Model
+		SccProjectUniqueName3 = tieba.BLL\\tieba.BLL.csproj
+		SccProjectName3 = tieba.BLL
+		SccLocalPath3 = tieba.BLL
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03D8DC0A-6425-4D72-B88D-AB484C5A8DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D8DC0A-6425-4D72-B88D-AB484C5A8DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D8DC0A-6425-4D72-B88D-AB484C5A8DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D8DC0A-6425-4D72-B88D-AB484C5A8DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3807CA00-864B-40E8-B706-2821D4BA9F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3807CA00-864B-40E8-B706-2821D4BA9F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3807CA00-864B-40E8-B706-2821D4BA9F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3807CA00-864B-40E8-B706-2821D4BA9F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BFEF56B-6C74-48CA-8EC8-A707E39B01AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BFEF56B-6C74-48CA-8EC8-A707E39B01AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BFEF56B-6C74-48CA-8EC8-A707E39B01AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BFEF56B-6C74-48CA-8EC8-A707E39B01AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

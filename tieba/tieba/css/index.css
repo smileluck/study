@@ -1,0 +1,58 @@
+﻿body { margin: 0px; padding: 0px; }
+.float { float: left; margin-left: 10px; cursor: pointer; }
+.float2 { float: right; cursor: pointer; }
+.bott { margin-bottom: 25px; }
+.bott2 { margin-bottom: -8px; }
+.left { margin-left: 10px; }
+a { text-decoration: none; }
+a:hover { cursor: pointer; text-decoration: underline; }
+.whole { width: 1000px; height: 1000px; margin: 0 auto; }
+.top { color: #773626; padding-top: 20px; font-family: 楷体; }
+.top_one { margin-left: 240px; font-size: 25px; float: left; color: #54565B; }
+.top_two { height: 22px; width: 65px; border: 1px solid #b6b5b5; float: right; margin-top: 10px; margin-right: 50px; color: #747272; border-radius: 12px; text-align: center; line-height: 22px; }
+.top_three { height: 310px; width: 1000px; margin-top: 55px; }
+.top_three2 { height: 400px; width: 650px; position: relative; top: -352px; left: 115px; }
+.top_four { position: absolute; top: 200px; left: 195px; font-size: 60px; }
+.top_four2 { position: absolute; top: 375px; left: 615px; font-size: 18px; }
+.top_f2_one { color: #d21022; }
+.top_five { position: absolute; top: 135px; left: 840px; font-size: 22px; }
+.body_one { width: 998px; height: 1300px; background: #f2f4f7; border: 1px solid #e6e6e6; margin-top: -48px; }
+.body_o_one { height: 50px; width: 998px; }
+.body_o_two { width: 560px; height: 300px; float: left; font-size: 18px; border-right: 1px dashed #e6e6e6; }
+.body_t_one { margin-top: 25px; margin-left: 130px; color: #de9e57; }
+.body_o_three { float: right; height: 300px; width: 390px; font-size: 22px; font-family: 楷体; color: #5c6573; margin-right: 18px; }
+.body_o_three2 { height: 35px; width: 220px; margin-left: 75px; line-height: 35px; margin-top: 10px; }
+.body_o_four { height: 350px; width: 935px; margin-top: 320px; margin-left: 30px; background: #ffffff; }
+.body_o_four2 { height: 90px; width: 670px; float: left; }
+.body_f_one { color: #de9e57; font-weight: bold; font-size: 25px; padding-top: 20px; margin-left: 80px; }
+.body_f_two { padding-top: 5px; margin-left: 80px; font-size: 13px; color: #666; }
+.body_o_four3 { float: right; height: 75px; width: 110px; font-size: 16px; font-family: 楷体; color: #999; margin-top: 30px; margin-right: 80px; }
+.body_f3_one { height: 15px; width: 15px; float: left; }
+.body_f3_two { margin-left: 25px; }
+.body_f3_three { text-align: center; margin-top: 8px; }
+.body_o_four4 { margin-left: 80px; height: 250px; }
+.body_f4_one { height: 135px; float: left; margin-top: 10px; margin-left: 1px; }
+.body_o_four5 { height: 1px; width: 780px; margin-top: 10px; margin-left: 80px; background-color: #e6e6e6; }
+.number { color: #de9e57; text-align: center; margin-right: 5px; float: left; list-style: none; }
+.body_o_four6 { height: 50px; margin-top: 20px; margin-left: 35px; width: 780px; }
+.number2 { font-size: 13px; color: #de9e57; float: right; list-style: none; }
+.publish { width: 900px; margin-top: 50px; margin-left: 70px; }
+.p_one { padding-bottom: 10px; color: #de9e57; font-weight: bold; }
+.p_two { height: 35px; width: 850px; margin-right: 10px; border: 1px solid #e6e6e6; }
+.p_three { height: 300px; width: 850px; border: 1px solid #dfdfdf; margin-top: 25px; background: #fafafa; }
+.p_four { text-align: center; line-height: 10px; }
+.p_five { height: 250px; width: 725px; margin-top: 25px; border: 1px solid #e6e6e6; }
+.p_six { background: #de9e57; height: 35px; width: 60px; color: White; margin-top: 20px; text-align: center; line-height: 35px; cursor: pointer; }
+.bottom { font-size: 13px; color: #999; margin: 20px auto; width: 400px; padding-bottom: 30px; }
+#oDIV { width: 370px; height: 225px; background: white; margin-top: 10px; margin-left: 5px; }
+.close { float: right; margin-top: 15px; margin-right: 18px; height: 22px; width: 22px; cursor: pointer; }
+.user { font-size: 20px; color: #de9e57; height: 30px; line-height: 30px; padding-top: 10px; padding-left: 70px; }
+.user_text { margin-left: 15px; height: 12px; padding: 5px; }
+.login { cursor: pointer; height: 40px; width: 182px; font-size: 25px; text-align: center; margin-top: 15px; margin-left: 115px; background: #de9e57; border-radius: 5px; color: white; font-weight: bold; line-height: 40px; }
+.loginout { color: #de9e57; margin-top: 30px; margin-left: 50px; }
+.phone { color: #de9e57; margin-left: 30px; font-size: 20px; padding-top: 25px; line-height: 20px; }
+.user2 { font-size: 20px; color: #de9e57; padding-top: 15px; padding-left: 70px; }
+#phmail { height: 10px; width: 160px; margin-left: 5px; padding: 8px; }
+.user_text2 { margin-left: 15px; height: 10px; width: 160px; padding: 8px; }
+
+.number_select { color: blue; text-align: center; margin-right: 5px; float: left; list-style: none; background: red; }
